@@ -1,0 +1,42 @@
+{
+  "name": "zhishiq/flarum-queue",
+  "description": "Add asyn job queue handle feature to laravel with laravel queue",
+  "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bill Lu",
+      "email": "lubobill1990@163.com"
+    }
+  ],
+  "support": {
+    "issues": "https://github.com/ZhiShiQ/flarum-queue/issues",
+    "source": "https://github.com/ZhiShiQ/flarum-queue"
+  },
+  "require": {
+    "flarum/core": "^0.1.0-beta.8",
+    "illuminate/queue": "^5.5",
+    "zhishiq/flarum-redis": "^0.1.0-beta.8.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "ZhiShiQ\\Flarum\\Queue\\": "src/"
+    }
+  },
+  "extra": {
+    "branch-alias": {
+      "dev-master": "0.1.x-dev"
+    },
+    "flarum-extension": {
+      "title": "Queue",
+      "icon": {
+        "image": "queue.png",
+        "backgroundSize": "46% 63%",
+        "backgroundPosition": "center",
+        "backgroundRepeat": "no-repeat",
+        "backgroundColor": "#40bad8",
+        "color": "#fff"
+      }
+    }
+  }
+}

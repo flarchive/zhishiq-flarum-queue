@@ -1,0 +1,5 @@
+zhishiq:
+  queue:
+    admin:
+      setting_title: "异步队列设置"
+      queue_backend: "队列后台 (当前仅支持 redis)"
